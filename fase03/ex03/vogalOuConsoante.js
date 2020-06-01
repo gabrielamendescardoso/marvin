@@ -1,10 +1,8 @@
 function vogalOuConsoante (letra){
-    letra = letra.toLowerCase();
+    var word = letra.toLowerCase();
 
-     if(letra=='a' || letra=='e' || letra=='i' || letra=='o' || letra=='u')
+     if(word =='a' || word =='e' || word =='i' || word =='o' || word =='u')
       return("Vogal");
-  else     
+     else     
       return("Consoante");
 }
-
-
